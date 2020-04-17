@@ -1,0 +1,43 @@
+* {
+    font-family: Roboto;
+    padding: 0px;
+    margin:0px;
+}
+
+.container {
+    
+    height:70%;
+    width:100%;
+    padding:2em;
+    padding-top:5em;
+    /* border:1px solid green; */
+    background-color: #213E4B;
+}
+
+
+.heading{
+    font-weight: bolder;
+    color:white;
+    padding:1em
+}
+
+.content{
+    color:white;
+    padding:1em;
+}
+
+.button_custom{
+    color:black;
+    font-weight: bold;
+    font-size:1em;
+    margin:2em 1em;
+    border-radius: 100px;
+    text-align: center;
+    padding:0.8em;
+    width:160px;
+    background-color:#2CC1DD
+}
+
+.sub_container{
+    width:60%
+}
