@@ -1,0 +1,154 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 1128px;
+    margin: 5rem auto;
+    border:0.10em solid black;
+
+}
+
+
+.row{
+   display: flex;
+   flex-direction: column;
+}
+
+.col {
+    display:flex;
+    width: 80%;
+    flex-direction: row;
+
+}
+
+.col + .col {
+    margin-left:2rem;
+}
+.nav_bar {
+    border-width: 1px solid black;
+    height:4rem;
+    padding:1em;
+    background-color: #222C2A;
+}
+
+.section_one {
+    margin-top:0.5rem;
+    justify-content: center;
+    align-items: center;
+    height:30rem;
+    background-color: #F3EED9 ;
+}
+
+
+.content {
+    align-items: center;
+    align-content: center;
+    padding-top:6em;
+}
+
+.heading_1{
+    color: #824936;
+    font-family: 'Roboto Light';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.heading_2 {
+    color:#824936;
+    font-family:  'Playfair Display';
+    font-size: 45px;
+    font-weight: 900;
+    padding:0;
+    margin:0
+}
+
+.div_heading_2{
+    text-align: center;
+    width:50%;
+}
+
+.content_2 {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.content_2 > p{
+    font-size:0.8em;
+    line-height: 1.5em;
+}
+
+.quality_heading{
+
+    align-self: center;
+   padding:0;
+   margin:0;
+}
+
+.quality_heading > p{
+    font-family:'Playfair Display';
+    font-weight: 900;
+    font-size:30px;
+    color: #824936;
+}
+
+.section_two {
+    padding-bottom:5rem
+}
+
+.content_3{
+    justify-content: flex-end;
+    padding-top:5rem;
+    background-color: #222C2A;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_4{
+    justify-content: flex-end;
+    padding-top:5rem;
+    background-color: #824936;
+    justify-content: center;
+    align-items: center;
+}
+.image_data{
+    width:50%;
+}
+
+.heading_custom {
+    font-family: 'Playfair Display';
+    color:#F3EED9 ;
+    font-size:1.2em
+}
+
+.custom_para {
+    font-family: "Roboto Light";
+    font-size:0.75em;
+    line-height: 1.5em;
+    color:#F3EED9 ;
+
+}
+
+.image {
+    padding: 1rem;
+}
+.jus{
+    justify-content: space-between;
+
+}
+
+.ct + .ct {
+    margin-left:2rem;
+}
